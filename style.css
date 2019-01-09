@@ -1,0 +1,264 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+}
+header {
+	background: rgb(255, 192, 55);
+	background-size: contain;
+    width: 100%
+    margin: 5px 100px 5px 15%;
+    height: auto;
+    padding: 5px 0;
+    padding-bottom: 30px;
+}
+li {
+	list-style: none;
+}
+.title {
+	text-transform: uppercase;
+	font-size: 2em;
+	color: gray;
+	margin: 76px 12% 0 12%;
+}
+.title-border  {
+	border: 2px solid yellow;
+	padding: 3px;
+	color: white;
+}
+.header-nav li {
+	text-transform: uppercase;
+	display: inline;
+	margin-left: 3%; 
+	position: relative;
+	bottom: 40px;
+}
+.header-nav a {
+	text-decoration: none;
+	color: gray;
+}
+.header-nav {
+	margin-left: 40%; 
+}
+.app-dev-text {
+	text-transform: uppercase;
+	color: white;
+	margin: 30px 12% 0 12%;
+}
+.lorem1 {
+	width: 28%;
+	display: block;
+	line-height: 30px;
+	text-transform: none;
+}
+.view-more {
+	background: #333333;
+	background-size: 32px 32px;
+	color: white;
+	padding: 20px 25px 20px 25px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 35px;
+	display: inline-block;
+	font-size: 1.2em;
+}
+.icon {
+	display: none;
+}
+.what-do {
+	text-transform: uppercase;
+	width: 25%;
+	height: 3%;
+	margin-left: 37.5%;
+	background: #464646;
+	text-align: center;
+	color: white;
+	margin-top: 140px;
+}
+body main {
+	margin:  0 12% 0 12%;
+}
+.web-design h2 {
+	float: right;
+	margin-right: 30%;
+}
+.what-do p {
+	padding: 10px;
+	display: inline-block;
+}
+.web-design {
+	margin-top: 185px;
+}
+.lorem2 {
+	display: block;
+	float: right;
+	width: 35.5%;
+	clear: right;
+	margin-right: 7%;
+}
+.view-more2 {
+	background: #ffc038;
+	color: gray;
+	padding: 20px 40px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 35px;
+	display: inline-block;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	float: right;
+	clear: right;
+	margin-right: 27%;
+}
+.optimization {
+	margin-top: 205px;
+}
+.lorem3 {
+	display: block;
+	width: 35.5%;
+	margin-left: 0;
+}
+.view-more3 {
+	background: #ffc038;
+	color: gray;
+	padding: 20px 40px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 35px;
+	display: inline-block;
+	font-size: 1.2em;
+	text-transform: uppercase;
+
+}
+.subscribe {
+	text-transform: uppercase;
+	width: 330px;
+	height: 50px;
+	margin-left: 37.5%;
+	background: #464646;
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 140px;
+	clear: both;
+}
+.subscribe p {
+	padding: 20px;
+}
+table {
+	color: black;
+	clear: both;
+	border-collapse: collapse;
+	position: relative;
+	right: 10%;
+}
+table td {
+	padding: 20px;
+	margin-right: 40%;
+}
+.table-types td {
+	border-bottom: 3px solid black;
+}
+.table-bonuses1 td {
+	border-bottom: 3px solid gray;
+}
+.table-bonuses2 td {
+	border-bottom: 3px solid red;
+}
+.table-bonuses3 td {
+	border-bottom: 3px solid yellow;
+}
+.table-prices td {
+	border-top: 3px solid #3C48C2;
+}
+.table-buy-buttons a {
+	background: #333333;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.2em;
+}
+.laptop-img1 {
+	position: absolute;
+	left: 50%;
+	top: 300px;
+	width: 32%;
+}
+.laptop-img2 {
+	position: absolute;
+	left: 3%;
+	top: 1440px;
+	width: 32%;
+}
+.burger-icon {
+	display: none;
+}
+
+
+
+@media screen and (max-width: 990px) {
+	nav {
+		margin-left: -200px;
+	}	
+	.lorem1 {
+		width: 300px;
+	}
+	.laptop-img1 {
+		left: 60%;
+		top: 400px;
+	}
+	.optimization {
+		margin-top: -10px;
+	}
+
+}
+@media screen and (max-width: 935px) {
+	.header-nav a {
+		display: none;
+	}
+	.header-nav a.burger-icon {
+		float: right;
+		margin-right: 50px;
+		margin-top: -50px;
+		display: block;
+		font-size: 25px;
+	}
+	nav {
+		width: 100%;
+	}
+	.header-nav.responsive {
+		position: relative;
+		top: 50px;
+		left: -200px;
+	}
+    .header-nav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+		margin-left: 100px;
+	}
+	.header-nav.responsive li {
+		display: inline;
+	}
+	.title.hide {
+		display: none;
+	}
+	.burger-icon {
+		margin-bottom: 50px;
+		transform: translateY(-3px);
+	}
+}
+@media screen and (max-width: 615px) {
+	.laptop-img1 {
+		display: none;
+	}
+	.burger-icon {
+		margin-left: -200px;
+		transform: translateY(-5px);
+	}
+	.header-nav.responsive a {
+		margin-left: 200px;
+	}
+}
